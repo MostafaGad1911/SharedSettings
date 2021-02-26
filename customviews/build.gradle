@@ -32,6 +32,10 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+    lintOptions {
+        abortOnError false
+    }
+
 }
 
 dependencies {
@@ -51,8 +55,8 @@ dependencies {
     api "com.squareup.okhttp3:okhttp:$okHttp3_version"
     api "com.squareup.okhttp3:logging-interceptor:$okHttp3_version"
     //For DI - Dagger 2 https://github.com/codepath/android_guides/wiki/Dependency-Injection-with-Dagger-2
-    api 'com.google.dagger:dagger-android:2.15'
-    api 'com.google.dagger:dagger-android-support:2.14'
+    api 'com.google.dagger:dagger:2.32'
+    kapt 'com.google.dagger:dagger-compiler:2.32'
     // if you use the support libraries
     kapt 'com.google.dagger:dagger-android-processor:2.14'
     kapt 'com.google.dagger:dagger-compiler:2.14'
