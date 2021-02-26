@@ -23,5 +23,4 @@
 # Step 2 : Add the dependency
  
 
-implementation 'com.github.MostafaGad1911:SharedSettings:Tag'
-
+implementation 'com.github.MostafaGad1911:SharedSettings:TAG'
