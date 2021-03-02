@@ -6,7 +6,7 @@ import android.text.InputType
 import android.util.AttributeSet
 import android.util.TypedValue
 
-class AppsSquareMediumRadioButton(context: Context, attrs: AttributeSet?) : androidx.appcompat.widget.AppCompatRadioButton(context, attrs) {
+class CustomMediumRadioButton(context: Context, attrs: AttributeSet?) : androidx.appcompat.widget.AppCompatRadioButton(context, attrs) {
     var a = context.obtainStyledAttributes(
         attrs,
         R.styleable.FieldLayout,
