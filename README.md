@@ -1,11 +1,5 @@
 # SharedSettings
 
-
-
-
-
-2 - 
-
   implementation 'com.github.MostafaGad1911:SharedSettings:Tag'
 
    
